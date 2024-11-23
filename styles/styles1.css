@@ -1,0 +1,210 @@
+html, body {
+    height: 100%; /* Full height for the html and body */
+    margin: 0; /* Remove default margin */
+    display: flex;
+    flex-direction: column; /* Stack header, main, and footer vertically */
+    font-family: Arial, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #EEF2F6;
+}
+
+
+header {
+    background: #F9FAFC;
+    color: #000;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+main {
+    margin-top: 80px;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background: #F9FAFC;
+    color: #000;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container div {
+    width: 30%;
+}
+
+.social-links a {
+    color: #000;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+.contact-us-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.contact-us-button:hover {
+    background-color: #218838;
+}
+
+.book-appointment-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.book-appointment-button:hover {
+    background-color: #218838;
+}
+
+.form-container {
+    width: 50%;
+    margin: 50px auto;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+}
+
+.form-container p {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-field {
+    width: 48%;
+}
+
+.form-field label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-field input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-group-buttons input[type="submit"],
+.form-group-buttons input[type="reset"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.form-group-buttons input[type="reset"] {
+    background-color: #dc3545;
+}
+
+.form-group-buttons input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+.form-group-buttons input[type="reset"]:hover {
+    background-color: #c82333;
+}
+
+.error {
+    color: red;
+    font-size: 0.875em;
+}
+
+.book-now-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.book-now-button:hover {
+    background-color: #218838;
+}
