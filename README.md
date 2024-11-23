@@ -89,11 +89,7 @@ To set up the Physiowerkz website system on your local environment, follow these
 
 ### 1. Clone the Repository
 Clone the project repository from GitHub using the following command:
-```bash
 git clone https://github.com/YourUsername/Physiowerkz.git
-
-
-
 
 ### 2. Database Setup
 1. Open your MySQL management tool (e.g., phpMyAdmin).
