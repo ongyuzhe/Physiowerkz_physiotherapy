@@ -100,6 +100,7 @@ git clone https://github.com/YourUsername/Physiowerkz.git
 ### 3. Configuration
 Update the database connection settings in the includes/settings.php file:
 Code:
+
 $servername = "localhost";
 $username = "root";
 $password = "";
